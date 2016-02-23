@@ -3,9 +3,10 @@ lang Dockerfile
 ===============
 [![Docker Hub; nimmis/alpine--golang](https://img.shields.io/badge/dockerhub-nimmis%2Falpine--golang-green.svg)](https://registry.hub.docker.com/u/nimmis/alpine-golang)
 
-Docker container with GO programming language build ontop of Alpine to get the size down from over 800 Mb to 314 Mb
+Docker container with GO programming language build ontop of Alpine to get the size down from over the official 
+golang size (https://img.shields.io/badge/dockerhub-nimmis%2Falpine--micro-green.svg) to the latest (1.6) of nimmis/alpine-golang (https://badge.imagelayers.io/nimmis/alpine-golang:latest.svg)
 
-Based on [![Docker Hub; nimmis/alpine--micro](https://img.shields.io/badge/dockerhub-nimmis%2Falpine-micro--green.svg)](https://registry.hub.docker.com/u/nimmis/alpine-micro) with working init process and syslog. For more information on how to set upp services, please read the dockumentation for [nimmis/alpine-micro](https://registry.hub.docker.com/u/nimmis/alpine-micro)
+Based on Alpine [![Docker Hub; nimmis/alpine--micro](https://img.shields.io/badge/dockerhub-nimmis%2Falpine--micro-green.svg)](https://registry.hub.docker.com/u/nimmis/alpine-micro) with working init process and syslog. For more information on how to set upp services, please read the dockumentation for [nimmis/alpine-micro](https://registry.hub.docker.com/u/nimmis/alpine-micro)
 
 ### Installation
 
