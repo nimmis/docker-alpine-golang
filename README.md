@@ -25,6 +25,7 @@ This image contains version 1.2.2 to the latest version (atm 1.6.2), the version
 | Tag    | Go Version | Container size |
 | ------ | ---------- | -------------- |
 | latest | latest (atm 1.6) | [![](https://badge.imagelayers.io/nimmis/alpine-golang:latest.svg)](https://imagelayers.io/?images=nimmis/alpine-golang:latest) |
+| 1.6.3  | 1.6.3 | [![](https://badge.imagelayers.io/nimmis/alpine-golang:1.6.3.svg)](https://imagelayers.io/?images=nimmis/alpine-golang:1.6.3) |
 | 1.6.2  | 1.6.2 | [![](https://badge.imagelayers.io/nimmis/alpine-golang:1.6.2.svg)](https://imagelayers.io/?images=nimmis/alpine-golang:1.6.2) |
 | 1.6    | 1.6 | [![](https://badge.imagelayers.io/nimmis/alpine-golang:1.6.svg)](https://imagelayers.io/?images=nimmis/alpine-golang:1.6) |
 | 1.5.3  | 1.5.3 | [![](https://badge.imagelayers.io/nimmis/alpine-golang:1.5.3.svg)](https://imagelayers.io/?images=nimmis/alpine-golang:1.5.3) |
