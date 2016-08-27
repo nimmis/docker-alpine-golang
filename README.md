@@ -4,7 +4,7 @@ lang Dockerfile
 [![Docker Hub; nimmis/alpine--golang](https://img.shields.io/badge/dockerhub-nimmis%2Falpine--golang-green.svg)](https://registry.hub.docker.com/u/nimmis/alpine-golang)
 
 Docker container with GO programming language build ontop of Alpine to get the size down from over the official 
-golang sized [![](https://badge.imagelayers.io/golang:latest.svg)](https://imagelayers.io/?images=golang:latest) to the latest (1.6.2) of nimmis/alpine-golang [![](https://badge.imagelayers.io/nimmis/alpine-golang:latest.svg)](https://imagelayers.io/?images=nimmis/alpine-golang:latest)
+golang sized [![](https://badge.imagelayers.io/golang:latest.svg)](https://imagelayers.io/?images=golang:latest) to the latest (1.7) of nimmis/alpine-golang [![](https://badge.imagelayers.io/nimmis/alpine-golang:latest.svg)](https://imagelayers.io/?images=nimmis/alpine-golang:latest)
 
 Based on Alpine [![Docker Hub; nimmis/alpine--micro](https://img.shields.io/badge/dockerhub-nimmis%2Falpine--micro-green.svg)](https://registry.hub.docker.com/u/nimmis/alpine-micro) with working init process and syslog. For more information on how to set upp services, please read the dockumentation for [nimmis/alpine-micro](https://registry.hub.docker.com/u/nimmis/alpine-micro)
 
@@ -20,11 +20,12 @@ Accessing the container with a shell can be done with
 
 ### TAGs
 
-This image contains version 1.2.2 to the latest version (atm 1.6.2), the versions are nimmis/alpine-golang:<tag> where tag is
+This image contains version 1.2.2 to the latest version (atm 1.7), the versions are nimmis/alpine-golang:<tag> where tag is
 
 | Tag    | Go Version | Container size |
 | ------ | ---------- | -------------- |
-| latest | latest (atm 1.6) | [![](https://badge.imagelayers.io/nimmis/alpine-golang:latest.svg)](https://imagelayers.io/?images=nimmis/alpine-golang:latest) |
+| latest | latest (atm 1.7) | [![](https://badge.imagelayers.io/nimmis/alpine-golang:latest.svg)](https://imagelayers.io/?images=nimmis/alpine-golang:latest) |
+| 1.7  | 1.7 | [![](https://badge.imagelayers.io/nimmis/alpine-golang:1.7.svg)](https://imagelayers.io/?images=nimmis/alpine-golang:1.7) |
 | 1.6.3  | 1.6.3 | [![](https://badge.imagelayers.io/nimmis/alpine-golang:1.6.3.svg)](https://imagelayers.io/?images=nimmis/alpine-golang:1.6.3) |
 | 1.6.2  | 1.6.2 | [![](https://badge.imagelayers.io/nimmis/alpine-golang:1.6.2.svg)](https://imagelayers.io/?images=nimmis/alpine-golang:1.6.2) |
 | 1.6    | 1.6 | [![](https://badge.imagelayers.io/nimmis/alpine-golang:1.6.svg)](https://imagelayers.io/?images=nimmis/alpine-golang:1.6) |
