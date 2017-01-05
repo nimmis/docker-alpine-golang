@@ -1,17 +1,25 @@
-From nimmis/alpine-micro
+From nimmis/alpine-glibc
 
 MAINTAINER nimmis <kjell.havneskold@gmail.com>
 
-RUN apk update && \
+RUN apk update && apk upgrade && \
+
+    # Make info file about this build
+    mkdir -p /etc/BUILDS/ && \
+    printf "Build of nimmis/alpine-golang:1.3.3, date: %s\n"  `date -u +"%Y-%m-%dT%H:%M:%SZ"` > /etc/BUILDS/alpine-golang && \
+
+    # add extra package for installation  
     apk add curl && \
-    curl -L -o glibc-2.23-r1.apk \
-         "https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.23-r1/glibc-2.23-r1.apk" && \
-    curl -L -o glibc-bin-2.23-r1.apk \
-         "https://github.com/sgerrand/alpine-pkg-glibc/releases/download/2.23-r1/glibc-bin-2.23-r1.apk" && \
-    apk add --allow-untrusted glibc-2.23-r1.apk glibc-bin-2.23-r1.apk && \
-    rm -f glibc-2.23-r1.apk glibc-bin-2.23-r1.apk && \
+
+    # download and upack golang
     curl https://storage.googleapis.com/golang/go1.3.3.linux-amd64.tar.gz | tar xzf - -C / && \
-    mv /go /goroot
+    mv /go /goroot && \
+ 
+    # remove extra packages
+    apk del curl && \
+
+    # remove cached info
+    rm -rf /var/cache/apk/*
 
 ENV GOROOT=/goroot \
     GOPATH=/gopath \
