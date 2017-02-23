@@ -4,7 +4,7 @@ lang Dockerfile
 [![Docker Hub; nimmis/alpine--golang](https://img.shields.io/badge/dockerhub-nimmis%2Falpine--golang-green.svg)](https://registry.hub.docker.com/u/nimmis/alpine-golang)
 
 Docker container with GO programming language build ontop of Alpine to get the size down from over the official 
-golang sized [![](https://badge.imagelayers.io/golang:latest.svg)](https://imagelayers.io/?images=golang:latest) to the latest (1.7) of nimmis/alpine-golang [![](https://images.microbadger.com/badges/image/nimmis/alpine-golang.svg)](https://microbadger.com/images/nimmis/alpine-golang "Get your own image badge on microbadger.com")
+golang sized [![](https://badge.imagelayers.io/golang:latest.svg)](https://imagelayers.io/?images=golang:latest) to the latest (1.8) of nimmis/alpine-golang [![](https://images.microbadger.com/badges/image/nimmis/alpine-golang.svg)](https://microbadger.com/images/nimmis/alpine-golang "Get your own image badge on microbadger.com")
 
 Based on Alpine [![Docker Hub; nimmis/alpine--glibc](https://img.shields.io/badge/dockerhub-nimmis%2Falpine--glibc-green.svg)](https://registry.hub.docker.com/u/nimmis/alpine-micro) with
 glibc,  working init process and syslog. For more information on how to set upp services, please read the dockumentation for [nimmis/alpine-micro](https://registry.hub.docker.com/u/nimmis/alpine-micro)
@@ -40,7 +40,9 @@ This image contains version 1.2.2 to the latest version (atm 1.7.4), the version
 
 | Tag    | Go Version | Container size |
 | ------ | ---------- | -------------- |
-| latest | latest (atm 1.7.4) | [![](https://images.microbadger.com/badges/image/nimmis/alpine-golang.svg)](https://microbadger.com/images/nimmis/alpine-golang "Get your own image badge on microbadger.com") |
+| latest | latest (atm 1.8) | [![](https://images.microbadger.com/badges/image/nimmis/alpine-golang.svg)](https://microbadger.com/images/nimmis/alpine-golang "Get your own image badge on microbadger.com") |
+| 1.8 | 1.8 | [![](https://images.microbadger.com/badges/image/nimmis/alpine-golang:1.8.svg)](https://microbadger.com/images/nimmis/alpine-golang:1.8 "Get your own image badge on microbadger.com") |
+| 1.7.5 | 1.7.5 | [![](https://images.microbadger.com/badges/image/nimmis/alpine-golang:1.7.5.svg)](https://microbadger.com/images/nimmis/alpine-golang:1.7.5 "Get your own image badge on microbadger.com") |
 | 1.7.4 | 1.7.4 | [![](https://images.microbadger.com/badges/image/nimmis/alpine-golang:1.7.4.svg)](https://microbadger.com/images/nimmis/alpine-golang:1.7.4 "Get your own image badge on microbadger.com") |
 | 1.7.3 | 1.7.3 | [![](https://images.microbadger.com/badges/image/nimmis/alpine-golang:1.7.3.svg)](https://microbadger.com/images/nimmis/alpine-golang:1.7.3 "Get your own image badge on microbadger.com") |
 | 1.7  | 1.7 | [![](https://images.microbadger.com/badges/image/nimmis/alpine-golang:1.7.svg)](https://microbadger.com/images/nimmis/alpine-golang:1.7 "Get your own image badge on microbadger.com") |
