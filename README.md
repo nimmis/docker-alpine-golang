@@ -36,11 +36,14 @@ You are invited to contribute new features, fixes, or updates, large or small; w
 
 
 
-This image contains version 1.2.2 to the latest version (atm 1.8.3), the versions are nimmis/alpine-golang:<tag> where tag is
+This image contains version 1.2.2 to the latest version (atm 1.9.1), the versions are nimmis/alpine-golang:<tag> where tag is
 
 | Tag    | Go Version | Container size |
 | ------ | ---------- | -------------- |
-| latest | latest (atm 1.8.3) | [![](https://images.microbadger.com/badges/image/nimmis/alpine-golang.svg)](https://microbadger.com/images/nimmis/alpine-golang "Get your own image badge on microbadger.com") |
+| latest | latest (atm 1.9.1) | [![](https://images.microbadger.com/badges/image/nimmis/alpine-golang.svg)](https://microbadger.com/images/nimmis/alpine-golang "Get your own image badge on microbadger.com") |
+| 1.9.1 | 1.9.1 | [![](https://images.microbadger.com/badges/image/nimmis/alpine-golang:1.9.1.svg)](https://microbadger.com/images/nimmis/alpine-golang:1.9.1 "Get your own image badge on microbadger.com") |
+| 1.9 | 1.9 | [![](https://images.microbadger.com/badges/image/nimmis/alpine-golang:1.9.svg)](https://microbadger.com/images/nimmis/alpine-golang:1.9 "Get your own image badge on microbadger.com") |
+| 1.8.4 | 1.8.4 | [![](https://images.microbadger.com/badges/image/nimmis/alpine-golang:1.8.4.svg)](https://microbadger.com/images/nimmis/alpine-golang:1.8.4 "Get your own image badge on microbadger.com") |
 | 1.8.3 | 1.8.3 | [![](https://images.microbadger.com/badges/image/nimmis/alpine-golang:1.8.3.svg)](https://microbadger.com/images/nimmis/alpine-golang:1.8.3 "Get your own image badge on microbadger.com") |
 | 1.8.1 | 1.8.1 | [![](https://images.microbadger.com/badges/image/nimmis/alpine-golang:1.8.1.svg)](https://microbadger.com/images/nimmis/alpine-golang:1.8.1 "Get your own image badge on microbadger.com") |
 | 1.8 | 1.8 | [![](https://images.microbadger.com/badges/image/nimmis/alpine-golang:1.8.svg)](https://microbadger.com/images/nimmis/alpine-golang:1.8 "Get your own image badge on microbadger.com") |
